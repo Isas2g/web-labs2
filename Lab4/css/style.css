@@ -394,6 +394,132 @@ a:hover {
   color: #fff;
   text-transform: uppercase;
 }
+
+@media (max-width: 1170px) {
+  .section,
+  header,
+  footer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .header {
+    position: relative;
+    z-index: 3;
+  }
+
+  .black_bg {
+    position: relative;
+    overflow-y: hidden;
+  }
+
+  .black_bg .head__order-block {
+    position: relative;
+    z-index: 3;
+  }
+
+  .black_bg .head__section .head__img {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.3;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .black_bg .head__section .head__img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .menu__burger {
+    display: flex;
+  }
+
+  .use__items {
+    justify-content: center;
+  }
+
+  .advantages__section .advantage__list {
+    grid-template-columns: 320px 320px;
+    grid-template-rows: 40px 40px;
+    justify-content: center;
+  }
+
+  .advantages__section .section__rent .rent__img img {
+    box-shadow: none;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  .advantages__section .section__rent {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .rent-place__section .section_inner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .rent-place__img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .rent-place__section .rent-place__img {
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-top: -60px;
+  }
+}
+
+@media (max-width: 770px) {
+  .advantages__section .advantage__list {
+    grid-template-columns: 320px;
+    grid-template-rows: 40px;
+    justify-content: center;
+  }
+
+  .contacts__section .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts__section .form input {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .contacts__section .form input:last-child {
+    width: 249px;
+  }
+}
 @supports (-webkit-appearance:none){
+
+}
+
+ @media (max-width: 1170px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media (max-width: 770px){
+
+@supports (-webkit-appearance:none){
+
+}
 
 }
